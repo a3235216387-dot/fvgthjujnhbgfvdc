@@ -1,24 +1,24 @@
 #!/bin/sh
 export LANG=en_US.UTF-8
-export uuid=${uuid:-''}
-export port_vl_re=${vlpt:-''}
-export port_vm_ws=${vmpt:-''}
-export port_hy2=${hypt:-''}
-export port_tu=${tupt:-''}
-export port_xh=${xhpt:-''}
-export port_vx=${vxpt:-''}
-export port_an=${anpt:-''}
-export port_ar=${arpt:-''}
-export port_ss=${sspt:-''}
-export port_so=${sopt:-''}
-export ym_vl_re=${reym:-''}
-export cdnym=${cdnym:-''}
-export argo=${argo:-''}
-export ARGO_DOMAIN=${agn:-''}
-export ARGO_AUTH=${agk:-''}
-export ippz=${ippz:-''}
-export warp=${warp:-''}
-export name=${name:-''}
+export uuid=${uuid}
+export port_vl_re=${vlpt}
+export port_vm_ws=${vmpt}
+export port_hy2=${hypt}
+export port_tu=${tupt}
+export port_xh=${xhpt}
+export port_vx=${vxpt}
+export port_an=${anpt}
+export port_ar=${arpt}
+export port_ss=${sspt}
+export port_so=${sopt}
+export ym_vl_re=${reym}
+export cdnym=${cdnym}
+export argo=${argo}
+export ARGO_DOMAIN=${agn}
+export ARGO_AUTH=${agk}
+export ippz=${ippz}
+export warp=${warp}
+export name=${name}
 v46url="https://icanhazip.com"
 showmode(){
 echo "Argosbx脚本项目地址：https://github.com/yonggekkk/argosbx"
