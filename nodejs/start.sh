@@ -855,7 +855,7 @@ xrsbso
 warpsx
 xrsbout
 fi
-if [ -n "$argo" ] && [ -n "$vmag" ]; then
+if [ -n "$argo" ]; then
 echo
 echo "=========启用Cloudflared-argo内核========="
 if [ ! -e "$HOME/agsbx/cloudflared" ]; then
