@@ -42,13 +42,13 @@ const server = http.createServer((req, res) => {
             fs.readFile(subtxt, 'utf8', (err, data) => {
                 if (err) {
                     console.error(err);
-                    res.end(`=== vless-ws-tls节点分享 ===\n${vlessInfo}\n\n⚠️ Error reading agsbx/jh.txt`);
+                    res.end(`${vlessInfo}`);
                 } else {
-                    res.end(`=== vless-ws-tls节点分享 ===\n${vlessInfo}\n\n=== ArgoSBX脚本节点分享 ===\n${data}`);
+                    res.end(`${vlessInfo}\n${data}`);
                 }
             });
         } else {
-            res.end(`=== vless-ws-tls节点分享 ===\n${vlessInfo}`);
+            res.end(`${vlessInfo}`);
         }
         return;
     }
