@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "echo 'No build step required for Node.js server' && exit 0"
   },
   "dependencies": {
     "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
